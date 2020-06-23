@@ -1,0 +1,53 @@
+h1{
+    background:black;
+    color: white;
+}
+
+p{
+    font-weight:bold;
+    font-size : 3rem;
+}
+h1{
+    color: green;
+}
+
+.red-color{
+    color:red;
+}
+#myid{
+    color:yellow;
+}
+
+@media(max-width :768px){
+/*UI사이즈에 따라 Style 변환이 가능*/
+    body{
+        background:brown;
+    }
+    
+}
+
+
+div{
+    border:1px solid black;
+    display:inline;
+    width : 150px;
+    height: 200px;
+    padding:10px;
+    box-sizing : border-box;
+    font-size : 0.5rem;
+    text-align : center;
+}
+
+#box3{
+    width : 100px;
+    height : 50px;
+    border-radius : 15%;
+    position:relative;
+    left : 100px;
+    top : 100px;
+}
+
+#box2{
+    position:fixed;
+    
+}
