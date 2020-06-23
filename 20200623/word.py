@@ -14,3 +14,5 @@ if(len(word1) ==3):
             break
 else: 
     print("오답입니다. ", word2[0], word1[3])
+    
+    아
